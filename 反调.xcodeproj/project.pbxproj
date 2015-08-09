@@ -13,6 +13,7 @@
 		5EC492401B74B81B00D23C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC4923F1B74B81B00D23C0F /* Images.xcassets */; };
 		5EC492431B74B81B00D23C0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC492411B74B81B00D23C0F /* LaunchScreen.xib */; };
 		5EC4924F1B74B81B00D23C0F /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4924E1B74B81B00D23C0F /* __Tests.swift */; };
+		B343069E1B781A8700B5408D /* SyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343069D1B781A8700B5408D /* SyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5EC492481B74B81B00D23C0F /* 反调Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "反调Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC4924D1B74B81B00D23C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC4924E1B74B81B00D23C0F /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
+		B343069D1B781A8700B5408D /* SyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5EC492381B74B81B00D23C0F /* AppDelegate.swift */,
 				5EC4923A1B74B81B00D23C0F /* ViewController.swift */,
 				5EC4923C1B74B81B00D23C0F /* Main.storyboard */,
+				B343069D1B781A8700B5408D /* SyViewController.swift */,
 				5EC4923F1B74B81B00D23C0F /* Images.xcassets */,
 				5EC492411B74B81B00D23C0F /* LaunchScreen.xib */,
 				5EC492361B74B81B00D23C0F /* Supporting Files */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC4923B1B74B81B00D23C0F /* ViewController.swift in Sources */,
+				B343069E1B781A8700B5408D /* SyViewController.swift in Sources */,
 				5EC492391B74B81B00D23C0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 				5EC492541B74B81B00D23C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC492551B74B81B00D23C0F /* Build configuration list for PBXNativeTarget "反调Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				5EC492571B74B81B00D23C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
