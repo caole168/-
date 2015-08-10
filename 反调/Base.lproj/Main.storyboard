@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="-8" width="600" height="608"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="2gG-FX-hmi">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SyCell" rowHeight="120" id="2gG-FX-hmi" customClass="SyTableViewCell" customModule="反调" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2gG-FX-hmi" id="Xji-II-O1G">
@@ -37,8 +37,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="Wc8-ea-Rdm" id="PLx-t5-Sls"/>
-                                    <outlet property="delegate" destination="Wc8-ea-Rdm" id="SFB-dY-wTB"/>
+                                    <outlet property="dataSource" destination="Wc8-ea-Rdm" id="xru-EG-dOI"/>
+                                    <outlet property="delegate" destination="Wc8-ea-Rdm" id="Ybe-cI-OGM"/>
                                 </connections>
                             </tableView>
                         </subviews>
