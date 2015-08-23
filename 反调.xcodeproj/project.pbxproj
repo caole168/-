@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E7D60211B78BB4F000F9CD0 /* SyCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D60201B78BB4F000F9CD0 /* SyCellClass.swift */; };
 		5EC492391B74B81B00D23C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC492381B74B81B00D23C0F /* AppDelegate.swift */; };
 		5EC4923B1B74B81B00D23C0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4923A1B74B81B00D23C0F /* ViewController.swift */; };
 		5EC4923E1B74B81B00D23C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC4923C1B74B81B00D23C0F /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E7D60201B78BB4F000F9CD0 /* SyCellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyCellClass.swift; path = class/SyCellClass.swift; sourceTree = "<group>"; };
 		5EC492331B74B81B00D23C0F /* 反调.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "反调.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC492371B74B81B00D23C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC492381B74B81B00D23C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E7D60221B78BB61000F9CD0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D60201B78BB4F000F9CD0 /* SyCellClass.swift */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
 		5EC4922A1B74B81B00D23C0F = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 				5EC4923F1B74B81B00D23C0F /* Images.xcassets */,
 				5EC492411B74B81B00D23C0F /* LaunchScreen.xib */,
 				5EC492361B74B81B00D23C0F /* Supporting Files */,
+				5E7D60221B78BB61000F9CD0 /* class */,
 			);
 			path = "反调";
 			sourceTree = "<group>";
@@ -217,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC4923B1B74B81B00D23C0F /* ViewController.swift in Sources */,
+				5E7D60211B78BB4F000F9CD0 /* SyCellClass.swift in Sources */,
 				B343069E1B781A8700B5408D /* SyViewController.swift in Sources */,
 				5EC492391B74B81B00D23C0F /* AppDelegate.swift in Sources */,
 			);
