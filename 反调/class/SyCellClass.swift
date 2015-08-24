@@ -23,6 +23,10 @@ class SyTableViewCell: UITableViewCell {
     
     
     
+    @IBOutlet weak var SyCategory: UILabel!
+    @IBOutlet weak var SyContent: UILabel!
+    
+    
     
     
     
