@@ -22,13 +22,23 @@ class SyTableViewCell: UITableViewCell {
     }
     
     
-    
+    var c = 1
     @IBOutlet weak var SyCategory: UILabel!
     @IBOutlet weak var SyContent: UILabel!
+    @IBOutlet weak var SyAgreeCount: UILabel!
+    
+    @IBOutlet weak var SyDisagreeCount: UILabel!
     
     
-    
-    
+    @IBAction func SyAgreeButton(sender: AnyObject) {
+        if c != 0 {
+        c++
+        }
+             println(c)
+    }
+
+    @IBAction func SyDisagreeButton(sender: AnyObject) {
+    }
     
 }
 

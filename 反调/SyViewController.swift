@@ -55,6 +55,8 @@ class SyViewController: UIViewController,UITableViewDelegate,UITableViewDataSour
         
         tableCell.SyCategory.text = dataGroup["Category"] as? String     //cell用户名
         tableCell.SyContent.text = dataGroup["Content"] as? String  //cell 内容
+        tableCell.SyAgreeCount.text = dataGroup["agree"] as? String   //cell 支持数
+        tableCell.SyDisagreeCount.text = dataGroup["disagree"] as? String  // cell反对数
         
 //
 //        var photoUrl = dataGroup["UserPhoto"] as NSString

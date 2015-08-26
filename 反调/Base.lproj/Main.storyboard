@@ -16,45 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="b56-Hx-ciJ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="152" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="b56-Hx-ciJ">
                                 <rect key="frame" x="0.0" y="-8" width="600" height="608"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SyCell" id="2gG-FX-hmi" customClass="SyTableViewCell" customModule="反调" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="SyCell" id="2gG-FX-hmi" customClass="SyTableViewCell" customModule="反调" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2gG-FX-hmi" id="Xji-II-O1G">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYr-EL-833">
-                                                    <rect key="frame" x="271" y="81" width="59" height="30"/>
-                                                    <state key="normal" title="disagree">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="171" y="81" width="59" height="30"/>
-                                                    </variation>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEL-su-dH1">
-                                                    <rect key="frame" x="498" y="81" width="47" height="30"/>
-                                                    <state key="normal" title="unsure">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="314" y="81" width="47" height="30"/>
-                                                    </variation>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcA-TS-fOe">
-                                                    <rect key="frame" x="68" y="81" width="39" height="30"/>
-                                                    <state key="normal" title="agree">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="35" y="81" width="39" height="30"/>
-                                                    </variation>
-                                                </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="时政" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92w-G7-hbK">
                                                     <rect key="frame" x="27" y="14" width="26" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -70,11 +43,73 @@
                                                         <rect key="frame" x="19" y="29" width="364" height="44"/>
                                                     </variation>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYr-EL-833">
+                                                    <rect key="frame" x="272" y="106" width="59" height="30"/>
+                                                    <state key="normal" title="disagree">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                                        <rect key="frame" x="271" y="107" width="59" height="30"/>
+                                                    </variation>
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="171" y="102" width="59" height="30"/>
+                                                    </variation>
+                                                    <connections>
+                                                        <action selector="SyDisagreeButton:" destination="2gG-FX-hmi" eventType="touchUpInside" id="dJj-D1-C6Z"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEL-su-dH1">
+                                                    <rect key="frame" x="499" y="106" width="47" height="30"/>
+                                                    <state key="normal" title="unsure">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                                        <rect key="frame" x="498" y="107" width="47" height="30"/>
+                                                    </variation>
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="319" y="102" width="47" height="30"/>
+                                                    </variation>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcA-TS-fOe">
+                                                    <rect key="frame" x="69" y="106" width="39" height="30"/>
+                                                    <state key="normal" title="agree">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                                        <rect key="frame" x="67" y="107" width="39" height="30"/>
+                                                    </variation>
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="35" y="102" width="39" height="30"/>
+                                                    </variation>
+                                                    <connections>
+                                                        <action selector="SyAgreeButton:" destination="2gG-FX-hmi" eventType="touchUpInside" id="kUo-sN-P0l"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0g-u1-dPw">
+                                                    <rect key="frame" x="151" y="73" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="101" y="72" width="42" height="21"/>
+                                                    </variation>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-F5-w6g">
+                                                    <rect key="frame" x="372" y="73" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="272" y="72" width="42" height="21"/>
+                                                    </variation>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="SyAgreeCount" destination="T0g-u1-dPw" id="63H-zJ-HvM"/>
                                             <outlet property="SyCategory" destination="92w-G7-hbK" id="Hx3-aG-YhB"/>
                                             <outlet property="SyContent" destination="8eF-yJ-VbO" id="m2f-sy-rec"/>
+                                            <outlet property="SyDisagreeCount" destination="S5d-F5-w6g" id="699-Ea-IdP"/>
                                             <segue destination="ezW-9e-yh4" kind="show" id="Afq-C5-sZe"/>
                                         </connections>
                                     </tableViewCell>
